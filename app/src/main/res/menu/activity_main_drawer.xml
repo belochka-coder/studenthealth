@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_domashnyaya_stranitsa"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Расписание"
+            android:icon="@drawable/ic_raspisanie"
+            android:title="@string/menu_raspisanie" />
+        <item
+            android:id="@+id/nav_Питание"
+            android:icon="@drawable/ic_pitanie"
+            android:title="@string/menu_pitanie" />
+        <item
+            android:id="@+id/nav_Разминка"
+            android:icon="@drawable/ic_razminka"
+            android:title="@string/menu_razminka" />
+        <item
+            android:id="@+id/nav_Шагомер"
+            android:icon="@drawable/ic_shagomer"
+            android:title="@string/menu_shagomer" />
+    </group>
+</menu>

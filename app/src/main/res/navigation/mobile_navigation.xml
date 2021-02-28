@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.homeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_Расписание"
+        android:name="com.example.project.ui.raspisanie.RaspisanieFragment"
+        android:label="@string/menu_raspisanie"
+        tools:layout="@layout/fragment_raspisanie" />
+    <fragment
+        android:id="@+id/nav_Питание"
+        android:name="com.example.project.ui.pitanie.PitanieFragment"
+        android:label="@string/menu_pitanie"
+        tools:layout="@layout/fragment_pitanie" />
+    <fragment
+        android:id="@+id/nav_Шагомер"
+        android:name="com.example.project.ui.shagomer.ShagomerFragment"
+        android:label="@string/menu_shagomer"
+        tools:layout="@layout/fragment_shagomer" />
+    <fragment
+        android:id="@+id/nav_Разминка"
+        android:name="com.example.project.ui.razminka.RazminkaFragment"
+        android:label="@string/menu_razminka"
+        tools:layout="@layout/fragment_razminka" />
+</navigation>
